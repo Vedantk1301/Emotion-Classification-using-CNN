@@ -33,11 +33,11 @@ __Methodology__:
    __Our Model architecture consists of:__
       
      
-     ___* 4 Convolutional Layers___
-     ___* 2 Dense Layers___
-     ___* 4 Batch Normalization Layers___
-     ___* Mish Activation Function___
-     ___* Dropout___
+     * ___4 Convolutional Layers___
+     * ___2 Dense Layers___
+     * ___4 Batch Normalization Layers___
+     * ___Mish Activation Function___
+     * ___Dropout___
 
 
 
@@ -48,16 +48,16 @@ __Methodology__:
 10. Integrated various method to stablilize learning and to prevent overfitting.
     
 
-    ___* Used ADAMW as optimizer with L2 Regularization___
-    ___* Incorporated Learning Rate Scheduler On Plateau___
-    ___* Implemented Early Stopping___
+   * ___Used ADAMW as optimizer with L2 Regularization___
+   * ___Incorporated Learning Rate Scheduler On Plateau___
+   * ___Implemented Early Stopping___
 
 
 11. Finally Test conclusions were performed on validation as well as final_test set which was completely unseen data
     
 
-    ____* Implemented Confusion Matrix for the Classes___
-    ____* Plotted Precision-Recall Curve for each class___
+    *____Implemented Confusion Matrix for the Classes___
+    *____Plotted Precision-Recall Curve for each class___
 
 
 ___Note:___
