@@ -14,7 +14,7 @@ A simple Emotion Classification model to predict the emotions of people using im
 
 ### THE EMOTION CLASSIFICATION DATASET CONSISTS OF 7 CLASSES OF DIFFERENT HUMAN EMOTIONS.
 
-### Methodology:
+__Methodology__:
 
 1. Classes were heavily imbalanced, hence to address that I have used image augmentation of the minority classes to augment the images with randomized   
    transformation.
@@ -30,14 +30,14 @@ A simple Emotion Classification model to predict the emotions of people using im
 6. Defined our CNN model for the task
 
 
-   ### Our Model architecture consists of:
+   __Our Model architecture consists of:__
       
      
-    **####* 4 Convolutional Layers**
-    **####* 2 Dense Layers**
-    **####* 4 Batch Normalization Layers**
-    **####* Mish Activation Function**
-    **####* Dropout**
+     ___* 4 Convolutional Layers___
+     ___* 2 Dense Layers___
+     ___* 4 Batch Normalization Layers___
+     ___* Mish Activation Function___
+     ___* Dropout___
 
 
 
@@ -48,24 +48,24 @@ A simple Emotion Classification model to predict the emotions of people using im
 10. Integrated various method to stablilize learning and to prevent overfitting.
     
 
-    **####* Used ADAMW as optimizer with L2 Regularization**
-    **####* Incorporated Learning Rate Scheduler On Plateau**
-    **####* Implemented Early Stopping**
+    ___* Used ADAMW as optimizer with L2 Regularization___
+    ___* Incorporated Learning Rate Scheduler On Plateau___
+    ___* Implemented Early Stopping___
 
 
 11. Finally Test conclusions were performed on validation as well as final_test set which was completely unseen data
     
 
-    **####* Implemented Confusion Matrix for the Classes**
-    **####* Plotted Precision-Recall Curve for each class**
+    ____* Implemented Confusion Matrix for the Classes___
+    ____* Plotted Precision-Recall Curve for each class___
 
 
-Note:
+___Note:___
 
-**###* I Used precision recall curve as it helps understand how each class performs, this is especially helpful when the classes are imbalanced**
+___I Used precision recall curve as it helps understand how each class performs, this is especially helpful when the classes are imbalanced___
 
 
-**###* Lastly, Thank you for reading this.**
+___Lastly, Thank you for reading this.___
 
 
  
