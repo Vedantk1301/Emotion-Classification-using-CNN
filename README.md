@@ -1,7 +1,7 @@
 # Emotion-Classification-using-CNN
 A simple Emotion Classification model to predict the emotions of people using images
 
-### Dependencies Required:
+## Dependencies Required:
 
 . Pytorch
 . Torchvision
@@ -29,13 +29,13 @@ A simple Emotion Classification model to predict the emotions of people using im
    
 6. Defined our CNN model for the task
 
-## Our Model architecture consists of:
+### Our Model architecture consists of:
 
-### . 4 Convolutional Layers
-### . 2 Dense Layers
-### . 4 Batch Normalization Layers        
-### . Mish Activation Function        
-### . Dropout 
+#### . 4 Convolutional Layers
+#### . 2 Dense Layers
+#### . 4 Batch Normalization Layers        
+#### . Mish Activation Function        
+#### . Dropout 
 
 
 
@@ -45,21 +45,21 @@ A simple Emotion Classification model to predict the emotions of people using im
    
 9. Integrated various method to stablilize learning and to prevent overfitting.
 
-### . Used ADAMW as optimizer with L2 Regularization
-### . Incorporated Learning Rate Scheduler On Plateau
-### . Implemented Early Stopping
+#### . Used ADAMW as optimizer with L2 Regularization
+#### . Incorporated Learning Rate Scheduler On Plateau
+#### . Implemented Early Stopping
 
 
 10. Finally Test conclusions were performed on validation as well as final_test set which was completely unseen data
 
-### . Implemented Confusion Matrix for the Classes
-### . Plotted Precision-Recall Curve for each class
+#### . Implemented Confusion Matrix for the Classes
+#### . Plotted Precision-Recall Curve for each class
 
 Note:
-### I Used precision recall curve as it helps understand how each class performs, this is especially helpful when the classes are imbalanced
+#### I Used precision recall curve as it helps understand how each class performs, this is especially helpful when the classes are imbalanced
 
 
-## Lastly, Thank you for reading this.
+### Lastly, Thank you for reading this.
 
 
  
