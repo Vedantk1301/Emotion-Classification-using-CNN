@@ -3,13 +3,13 @@ A simple Emotion Classification model to predict the emotions of people using im
 
 ## Dependencies Required:
 
-Pytorch
-Torchvision
-Pillow
-Scikit-Learn
-numpy
-matplotlib
-collections
+. Pytorch
+. Torchvision
+. Pillow
+. Scikit-Learn
+. numpy
+. matplotlib
+. collections
 
 
 ### THE EMOTION CLASSIFICATION DATASET CONSISTS OF 7 CLASSES OF DIFFERENT HUMAN EMOTIONS.
