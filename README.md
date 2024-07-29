@@ -1,5 +1,7 @@
 # Emotion-Classification-using-CNN
-A simple Emotion Classification model to predict the emotions of people using images
+A simple Emotion Classification model which highly imbalanced dataset to predict the emotions of people using images
+
+GOAL: The main goal of this project is to efficiently address Class imbalanced dataset and to outline methods of solutions or approaches for resolving the same.
 
 ## Dependencies Required:
 
